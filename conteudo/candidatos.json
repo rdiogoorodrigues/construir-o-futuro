@@ -1,0 +1,77 @@
+{
+  "_instrucoes": "Cada pessoa tem: id (usado nos nomes das fotografias: fotos/ID-atual.jpg e fotos/ID-crianca.jpg), nome (o que aparece no site), nomeCompleto (referência interna, não aparece) e cargo. As pessoas aparecem pela ordem desta lista, dentro de cada órgão e grupo.",
+  "orgaos": [
+    {
+      "orgao": "Direção",
+      "grupos": [
+        {
+          "grupo": "Efetivos",
+          "pessoas": [
+            { "id": "antonio-pereira", "nome": "António Pereira", "nomeCompleto": "António Da Luz Pereira", "cargo": "Presidente" },
+            { "id": "nina-monteiro", "nome": "Nina Monteiro", "nomeCompleto": "Nina Monteiro Silva Ferreira Francisco", "cargo": "Vice-presidente" },
+            { "id": "gil-lopes", "nome": "Gil Lopes", "nomeCompleto": "Gil Roberto Correia Lopes", "cargo": "Vice-presidente" },
+            { "id": "mario-santos", "nome": "Mário Santos", "nomeCompleto": "Mário Alexandre Pinto Pereira Santos", "cargo": "Vice-presidente" },
+            { "id": "maria-rio", "nome": "Maria Rio", "nomeCompleto": "Maria Madalena Ponte P Leite Rio", "cargo": "Secretário" },
+            { "id": "ines-teles", "nome": "Inês Teles", "nomeCompleto": "Inês Seabra Teles", "cargo": "Tesoureiro" },
+            { "id": "andre-reis", "nome": "André Reis", "nomeCompleto": "André Filipe Santos Reis", "cargo": "Vogal" },
+            { "id": "carlos-mestre", "nome": "Carlos Mestre", "nomeCompleto": "Carlos Manuel Caeiro Mestre", "cargo": "Vogal" },
+            { "id": "luis-monteiro", "nome": "Luís Monteiro", "nomeCompleto": "Luís Miguel André Monteiro", "cargo": "Vogal" }
+          ]
+        },
+        {
+          "grupo": "Suplentes",
+          "pessoas": [
+            { "id": "ana-silva", "nome": "Ana Silva", "nomeCompleto": "Ana Leonor Assunção Silva", "cargo": "Suplente" },
+            { "id": "ana-queiros", "nome": "Ana Queirós", "nomeCompleto": "Ana Rita Queirós", "cargo": "Suplente" },
+            { "id": "denise-velho", "nome": "Denise Velho", "nomeCompleto": "Denise Alexandra Cunha Velho", "cargo": "Suplente" },
+            { "id": "ines-castro", "nome": "Inês Castro", "nomeCompleto": "Inês Gomes Ribeiro Castro", "cargo": "Suplente" },
+            { "id": "ligia-churro", "nome": "Lígia Churro", "nomeCompleto": "Lígia Maria Saltão Churro", "cargo": "Suplente" },
+            { "id": "rui-rodrigues", "nome": "Rui Rodrigues", "nomeCompleto": "Rui Diogo Oliveira Rodrigues", "cargo": "Suplente" },
+            { "id": "daniela-emilio", "nome": "Daniela Emílio", "nomeCompleto": "Daniela Jesus Lanita Emílio", "cargo": "Suplente" },
+            { "id": "maria-outeirinho", "nome": "Maria Outeirinho", "nomeCompleto": "Maria Conceição Costa Outeirinho", "cargo": "Suplente" }
+          ]
+        }
+      ]
+    },
+    {
+      "orgao": "Mesa da Assembleia Geral",
+      "grupos": [
+        {
+          "grupo": "Efetivos",
+          "pessoas": [
+            { "id": "nuno-jacinto", "nome": "Nuno Jacinto", "nomeCompleto": "Nuno Frederico Montalvão Cardoso Jacinto", "cargo": "Presidente" },
+            { "id": "jose-antunes", "nome": "José Antunes", "nomeCompleto": "José Pedro Machado Antunes", "cargo": "Primeiro-Secretário" },
+            { "id": "ana-sardinha", "nome": "Ana Sardinha", "nomeCompleto": "Ana Maria Meira Macedo Sardinha", "cargo": "Segundo-Secretário" }
+          ]
+        },
+        {
+          "grupo": "Suplentes",
+          "pessoas": [
+            { "id": "deolinda-almeida", "nome": "Deolinda Almeida", "nomeCompleto": "Deolinda Chaves Beça Almeida", "cargo": "Suplente" },
+            { "id": "vera-silva", "nome": "Vera Silva", "nomeCompleto": "Vera Cristina Jesus Pires Silva", "cargo": "Suplente" }
+          ]
+        }
+      ]
+    },
+    {
+      "orgao": "Conselho Fiscal",
+      "grupos": [
+        {
+          "grupo": "Efetivos",
+          "pessoas": [
+            { "id": "ana-cruz", "nome": "Ana Cruz", "nomeCompleto": "Ana Margarida Antunes Cruz", "cargo": "Presidente" },
+            { "id": "catarina-bica", "nome": "Catarina Bica", "nomeCompleto": "Catarina Alexandra Diogo Bica", "cargo": "Primeiro-Secretário" },
+            { "id": "ana-pereira", "nome": "Ana Pereira", "nomeCompleto": "Ana Luís Ferreira Castro Pereira", "cargo": "Segundo-Secretário" }
+          ]
+        },
+        {
+          "grupo": "Suplentes",
+          "pessoas": [
+            { "id": "edgar-vaz", "nome": "Edgar Vaz", "nomeCompleto": "Edgar Luís Frutuoso Vaz", "cargo": "Suplente" },
+            { "id": "miguel-azevedo", "nome": "Miguel Azevedo", "nomeCompleto": "Miguel Ornelas Pires Mota Azevedo", "cargo": "Suplente" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Fotografias dos candidatos.
+Nomes: ID-atual.jpg e ID-crianca.jpg (ver README, secção 2).

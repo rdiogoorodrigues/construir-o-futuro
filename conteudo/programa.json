@@ -1,0 +1,59 @@
+{
+  "_instrucoes": "Cada eixo tem: titulo, introducao e propostas (lista). O site mostra as 3 primeiras propostas e um botão 'Ver mais' para as restantes. Mantenha as aspas e as vírgulas entre elementos.",
+  "eixos": [
+    {
+      "titulo": "Construir uma profissão com futuro",
+      "introducao": "Uma MGF forte começa por médicos de família que sintam que vale a pena sê-lo.",
+      "propostas": [
+        "Defender melhores condições para o exercício da profissão, em todos os contextos de trabalho.",
+        "Valorizar o reconhecimento da complexidade clínica e de gestão do médico de família.",
+        "Promover modelos de organização que protejam o tempo de consulta e reduzam a carga administrativa.",
+        "Reforçar as condições de retenção e de atratividade da especialidade para as novas gerações.",
+        "Estimular a participação ativa dos médicos de família nas decisões que afetam o seu próprio trabalho.",
+        "Consolidar o apoio da APMGF em todas as fases da carreira, do internato à reforma."
+      ]
+    },
+    {
+      "titulo": "Construir conhecimento que transforma",
+      "introducao": "O maior património da APMGF é o conhecimento que produz.",
+      "propostas": [
+        "Desenvolver a investigação em MGF, alicerçada nos Grupos de Estudo e na RPMGF.",
+        "Promover investigação clínica, de serviços de saúde e sobre a organização dos cuidados de saúde primários e criando espaços para as humanidades na educação médica.",
+        "Criar uma ligação permanente entre dados, evidência e recomendações de política pública.",
+        "Desenvolver a tradução da ICPC-3 para português e o trabalho técnico que permita a sua utilização real na prática clínica."
+      ]
+    },
+    {
+      "titulo": "Construir o futuro digital",
+      "introducao": "Queremos promover a discussão sobre que MGF queremos construir num mundo digital.",
+      "propostas": [
+        "Promover o desenvolvimento de conhecimento, formação e recomendações sobre inteligência artificial, telemedicina e decisão clínica assistida.",
+        "Defender a ética, a segurança e a proteção da relação médico-utente como condição de qualquer transformação digital.",
+        "Renovar as plataformas digitais da APMGF, com uma biblioteca científica organizada e de pesquisa simples e intuitiva.",
+        "Desenvolver a desmaterialização do cartão de associado, simplificando a relação de cada sócio com a APMGF.",
+        "Reforçar que mais tecnologia só tem sentido se significar mais tempo para o que só o médico pode fazer."
+      ]
+    },
+    {
+      "titulo": "Construir posições com evidência",
+      "introducao": "Representar a MGF é tomar posição com evidência.",
+      "propostas": [
+        "Reforçar a independência da APMGF.",
+        "Defender uma formação médica contínua orientada pelo mérito científico e pelo interesse dos médicos de família.",
+        "Consolidar o diálogo permanente interinstitucional, político e académico.",
+        "Mobilizar a nossa presença internacional, em particular junto da WONCA, criando mais oportunidades de intercâmbio e investigação para internos e jovens médicos de família.",
+        "Projetar Portugal como referência internacional de uma Medicina Geral e Familiar robusta, de excelência e com capacidade de construir futuro."
+      ]
+    },
+    {
+      "titulo": "Construir uma associação mais aberta",
+      "introducao": "Uma associação com mais de quatro mil médicos só é verdadeiramente forte se cada um deles sentir que tem ali o seu lugar.",
+      "propostas": [
+        "Aproximar internos, jovens especialistas, médicos em diferentes fases da carreira e médicos aposentados, cada um com uma razão concreta para participar.",
+        "Consolidar a coesão entre a estrutura nacional, as estruturas locais e os Grupos de Estudo.",
+        "Promover uma comunicação mais transparente sobre o que a APMGF faz e, sobretudo, sobre o que consegue transformar.",
+        "Estimular uma cultura de participação ativa de todos os associados."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "_instrucoes": "Cada entrada tem pergunta e resposta. Numa resposta, uma linha em branco (\\n\\n) separa parágrafos. Textos entre [ ] estão por preencher.",
+  "perguntas": [
+    {
+      "pergunta": "Quem pode votar?",
+      "resposta": "Os sócios da APMGF em pleno gozo dos seus direitos à data de 30 de agosto de 2026."
+    },
+    {
+      "pergunta": "Como e quando posso votar?",
+      "resposta": "A votação é eletrónica e decorre entre as 0h00 de 18 de novembro e as 12h00 de 28 de novembro de 2026 (hora de Portugal Continental).\n\nAté 10 de novembro, a APMGF envia a cada sócio um código por SMS ou email, para o número de telemóvel ou endereço registado na Associação. Guarda-o até votar.\n\nNo dia 28 de novembro, das 11h00 às 12h00, funciona também uma mesa eleitoral na sede da APMGF (Rua Ivone Silva, Edifício ARCIS, n.º 6, 16.º andar, Lisboa), com os meios informáticos para votar presencialmente."
+    },
+    {
+      "pergunta": "Quem compõe a lista?",
+      "resposta": "A lista Construir o Futuro apresenta candidatos à Direção, à Mesa da Assembleia Geral e ao Conselho Fiscal. Conhece-os na secção Quem somos."
+    },
+    {
+      "pergunta": "Quais são as principais propostas?",
+      "resposta": "O programa organiza-se em cinco eixos: construir uma profissão com futuro, conhecimento que transforma, o futuro digital, posições com evidência e uma associação mais aberta. Cada eixo tem compromissos concretos, na secção Programa."
+    },
+    {
+      "pergunta": "Como posso contribuir com ideias?",
+      "resposta": "Através do formulário da secção Participa. Podes enviar de forma anónima ou com o teu email; neste caso, recebes uma cópia do que escreveste."
+    },
+    {
+      "pergunta": "O que acontece aos contributos que envio?",
+      "resposta": "[RESPOSTA A INSERIR]"
+    },
+    {
+      "pergunta": "Como posso contactar a candidatura?",
+      "resposta": "Por email, para listaconstruirofuturo@gmail.com, ou pelas nossas páginas no Instagram e no Facebook."
+    }
+  ]
+}
