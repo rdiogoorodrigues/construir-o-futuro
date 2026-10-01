@@ -59,7 +59,7 @@
         {
           "grupo": "",
           "pessoas": [
-            { "id": "ana-margarida-cruz", "nome": "Ana Margarida Cruz", "nomeCompleto": "Ana Margarida Antunes Cruz", "cargo": "Presidente" },
+            { "id": "ana-margarida-cruz", "nome": "Ana Margarida Cruz", "nomeCompleto": "Ana Margarida Antunes Cruz", "cargo": "Presidente", "zoomAtual": 1.4, "centroZoomAtual": "50% 20%", "zoomCrianca": 1.15, "centroZoomCrianca": "55% 45%" },
             { "id": "catarina-bica", "nome": "Catarina Bica", "nomeCompleto": "Catarina Alexandra Diogo Bica", "cargo": "Primeiro-Secretário" },
             { "id": "ana-luis-pereira", "nome": "Ana Luís Pereira", "nomeCompleto": "Ana Luís Ferreira Castro Pereira", "cargo": "Segundo-Secretário" }
           ]
