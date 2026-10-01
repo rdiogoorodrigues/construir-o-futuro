@@ -1,11 +1,11 @@
 {
-  "_instrucoes": "Cada pessoa tem: id (usado nos nomes das fotografias: fotos/ID-atual.jpg e fotos/ID-crianca.jpg), nome (o que aparece no site), nomeCompleto (referência interna, não aparece) e cargo. As pessoas aparecem pela ordem desta lista, dentro de cada órgão e grupo.",
+  "_instrucoes": "Cada pessoa tem: id (usado nos nomes das fotografias: fotos/ID-atual.jpg e fotos/ID-crianca.jpg), nome (o que aparece no site), nomeCompleto (referência interna, não aparece) e cargo. As pessoas aparecem pela ordem desta lista, dentro de cada órgão e grupo. Um grupo com nome vazio (\"\") aparece sem rótulo.",
   "orgaos": [
     {
       "orgao": "Direção",
       "grupos": [
         {
-          "grupo": "Efetivos",
+          "grupo": "",
           "pessoas": [
             { "id": "antonio-luz-pereira", "nome": "António Luz Pereira", "nomeCompleto": "António Da Luz Pereira", "cargo": "Presidente" },
             { "id": "nina-monteiro", "nome": "Nina Monteiro", "nomeCompleto": "Nina Monteiro Silva Ferreira Francisco", "cargo": "Vice-presidente" },
@@ -37,7 +37,7 @@
       "orgao": "Mesa da Assembleia Geral",
       "grupos": [
         {
-          "grupo": "Efetivos",
+          "grupo": "",
           "pessoas": [
             { "id": "nuno-jacinto", "nome": "Nuno Jacinto", "nomeCompleto": "Nuno Frederico Montalvão Cardoso Jacinto", "cargo": "Presidente" },
             { "id": "jose-pedro-antunes", "nome": "José Pedro Antunes", "nomeCompleto": "José Pedro Machado Antunes", "cargo": "Primeiro-Secretário" },
@@ -57,7 +57,7 @@
       "orgao": "Conselho Fiscal",
       "grupos": [
         {
-          "grupo": "Efetivos",
+          "grupo": "",
           "pessoas": [
             { "id": "ana-margarida-cruz", "nome": "Ana Margarida Cruz", "nomeCompleto": "Ana Margarida Antunes Cruz", "cargo": "Presidente" },
             { "id": "catarina-bica", "nome": "Catarina Bica", "nomeCompleto": "Catarina Alexandra Diogo Bica", "cargo": "Primeiro-Secretário" },

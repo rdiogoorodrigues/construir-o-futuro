@@ -87,7 +87,7 @@ Abra `conteudo/candidatos.json` e edite (lápis ✏️). Cada pessoa é uma linh
 - Mantenha todas as aspas `"`.
 - Se o site deixar de mostrar os candidatos depois de uma alteração, o problema é quase sempre uma vírgula a mais ou a menos. Pode verificar colando o conteúdo em [jsonlint.com](https://jsonlint.com).
 
-As pessoas aparecem pela ordem do ficheiro, agrupadas por órgão (Direção, Mesa da Assembleia Geral, Conselho Fiscal) e por grupo (Efetivos, Suplentes).
+As pessoas aparecem pela ordem do ficheiro, agrupadas por órgão (Direção, Mesa da Assembleia Geral, Conselho Fiscal) e por grupo. Os efetivos estão num grupo sem nome (`"grupo": ""`), que aparece sem rótulo; os suplentes aparecem sob o rótulo *Suplentes*.
 
 ---
 

@@ -205,7 +205,7 @@
       sec.className = 'orgao';
       sec.innerHTML = '<h3>' + esc(o.orgao) + '</h3>';
       o.grupos.forEach(function (g) {
-        if (o.grupos.length > 1) {
+        if (g.grupo) { // grupo vazio = sem rótulo
           var r = document.createElement('p');
           r.className = 'rotulo grupo-rot';
           r.textContent = g.grupo;

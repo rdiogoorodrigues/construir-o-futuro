@@ -39,13 +39,13 @@
   <button class="nav-botao" type="button" aria-expanded="false" aria-controls="nav-lista">Menu</button>
   <nav aria-label="Secções">
     <ol class="nav-lista" id="nav-lista">
-      <li><a href="#candidatura"><span>03</span>Candidatura</a></li>
-      <li><a href="#programa"><span>04</span>Programa</a></li>
-      <li><a href="#quem-somos"><span>05</span>Quem somos</a></li>
-      <li><a href="#participa"><span>06</span>Participa</a></li>
-      <li><a href="#vota"><span>07</span>Vota</a></li>
-      <li><a href="#perguntas"><span>08</span>Perguntas</a></li>
-      <li><a href="#contactos"><span>10</span>Contactos</a></li>
+      <li><a href="#candidatura">Candidatura</a></li>
+      <li><a href="#programa">Programa</a></li>
+      <li><a href="#quem-somos">Quem somos</a></li>
+      <li><a href="#participa">Participa</a></li>
+      <li><a href="#vota">Vota</a></li>
+      <li><a href="#perguntas">Perguntas</a></li>
+      <li><a href="#contactos">Contactos</a></li>
     </ol>
   </nav>
 </header>
@@ -54,7 +54,6 @@
 
 <!-- 01 · INÍCIO -->
 <section class="hero grelha-iso" id="inicio" aria-labelledby="titulo-inicio">
-  <div class="hero-planta" aria-hidden="true"><span>01</span> Início</div>
   <div class="hero-corpo">
     <div class="hero-logo">
       <svg class="logo logo-anim" viewBox="150 105 830 830" role="img" aria-label="Logótipo: blocos azuis encaixados e um cubo dourado, a peça que falta.">
@@ -104,7 +103,7 @@
 <!-- 02 · CONTAGEM -->
 <section class="painel" id="contagem" aria-labelledby="cd-estado">
   <div class="caixa">
-    <div class="sec-cab sec-cab-claro"><span class="sec-num">02</span><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Contagem</span></div>
+    <div class="sec-cab sec-cab-claro"><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Votação</span></div>
     <div class="painel-grelha">
       <h2 class="painel-estado" id="cd-estado">A votação abre dentro de</h2>
       <div class="cd" id="cd" aria-describedby="cd-nota">
@@ -121,7 +120,7 @@
 <section class="secao" id="candidatura" aria-labelledby="titulo-candidatura" tabindex="-1">
   <div class="caixa duas-col">
     <div class="col-lateral">
-      <div class="sec-cab"><span class="sec-num">03</span><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Candidatura</span></div>
+      <div class="sec-cab"><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Candidatura</span></div>
       <h2 id="titulo-candidatura">Manifesto eleitoral</h2>
       <p class="meta">Triénio 2027–2029</p>
     </div>
@@ -136,20 +135,17 @@
 <!-- 04 · PROGRAMA -->
 <section class="secao secao-alt grelha-iso" id="programa" aria-labelledby="titulo-programa">
   <div class="caixa">
-    <div class="sec-cab"><span class="sec-num">04</span><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Programa</span></div>
+    <div class="sec-cab"><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Programa</span></div>
     <h2 id="titulo-programa">Cinco eixos, uma estrutura</h2>
     <ol class="eixos" id="eixos"></ol>
   </div>
 </section>
 
 <!-- 05 · QUEM SOMOS -->
-<section class="secao" id="quem-somos" aria-labelledby="titulo-quem">
+<section class="secao" id="quem-somos" aria-label="Quem somos">
   <div class="caixa">
-    <div class="sec-cab"><span class="sec-num">05</span><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Quem somos</span></div>
-    <div class="quem-cab">
-      <h2 id="titulo-quem">A equipa</h2>
-      <p class="legenda-tracejada">Já estávamos a construir o futuro.</p>
-    </div>
+    <div class="sec-cab"><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Quem somos</span></div>
+    <h2 id="titulo-quem" class="legenda-tracejada">Já estávamos a construir o futuro.</h2>
     <p class="dica" id="dica-fotos" hidden></p>
     <div id="candidatos"></div>
   </div>
@@ -159,8 +155,8 @@
 <section class="secao secao-participa" id="participa" aria-labelledby="titulo-participa">
   <div class="caixa duas-col">
     <div class="col-lateral">
-      <div class="sec-cab"><span class="sec-num">06</span><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Participa</span></div>
-      <h2 id="titulo-participa">A peça que falta</h2>
+      <div class="sec-cab"><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Participa</span></div>
+      <h2 id="titulo-participa">És a peça que falta</h2>
       <p class="intro">A associação constrói-se com a voz de todos. Uma ideia, um problema que sentes na consulta, uma solução que já testaste: cada contributo é uma peça.</p>
       <svg class="logo logo-participa" id="logo-participa" viewBox="150 105 830 830" aria-hidden="true" focusable="false">
         <defs>
@@ -222,11 +218,11 @@
             <label for="f-unidade">Tipo de unidade <span class="opc">(opcional)</span></label>
             <select id="f-unidade" name="unidade">
               <option value="">—</option>
-              <option>USF modelo A</option>
-              <option>USF modelo B</option>
-              <option>USF modelo C</option>
+              <option>USF-B</option>
+              <option>USF-C</option>
               <option>UCSP</option>
-              <option>Outra</option>
+              <option>Hospital Privado</option>
+              <option>Outro</option>
             </select>
           </div>
         </div>
@@ -280,7 +276,7 @@
 <!-- 07 · VOTA -->
 <section class="secao painel-claro" id="vota" aria-labelledby="titulo-vota">
   <div class="caixa">
-    <div class="sec-cab"><span class="sec-num">07</span><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Vota</span></div>
+    <div class="sec-cab"><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Vota</span></div>
     <div class="vota-grelha">
       <div>
         <h2 id="titulo-vota">De 18 a 28 de novembro, vota.</h2>
@@ -312,7 +308,7 @@
 <section class="secao" id="perguntas" aria-labelledby="titulo-perguntas">
   <div class="caixa duas-col">
     <div class="col-lateral">
-      <div class="sec-cab"><span class="sec-num">08</span><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Perguntas</span></div>
+      <div class="sec-cab"><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Perguntas</span></div>
       <h2 id="titulo-perguntas">Perguntas frequentes</h2>
     </div>
     <div class="col-principal">
@@ -325,7 +321,7 @@
 <section class="secao secao-alt" id="segue-nos" aria-labelledby="titulo-segue">
   <div class="caixa segue">
     <div>
-      <div class="sec-cab"><span class="sec-num">09</span><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Segue-nos</span></div>
+      <div class="sec-cab"><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Segue-nos</span></div>
       <h2 id="titulo-segue">Acompanha a candidatura</h2>
     </div>
     <div class="segue-acoes">
@@ -341,7 +337,7 @@
 <!-- 10 · CONTACTOS E RODAPÉ -->
 <footer class="rodape" id="contactos" aria-labelledby="titulo-contactos">
   <div class="caixa">
-    <div class="sec-cab sec-cab-claro"><span class="sec-num">10</span><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Contactos</span></div>
+    <div class="sec-cab sec-cab-claro"><span class="sec-regua" aria-hidden="true"></span><span class="sec-nome">Contactos</span></div>
     <div class="rodape-grelha">
       <div>
         <h2 id="titulo-contactos" class="rodape-titulo">Fala connosco</h2>

@@ -425,7 +425,9 @@ p { margin: 0 0 1em; }
 /* ---------- 05 · Quem somos ---------- */
 .quem-cab { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 24px; }
 .legenda-tracejada {
-  font-size: 1.05rem; color: var(--tinta-suave);
+  display: inline-block;
+  font-family: var(--texto); font-weight: 400; letter-spacing: 0; line-height: 1.4;
+  font-size: 1.15rem; color: var(--tinta-suave);
   padding: 4px 10px; border: 1.5px dashed var(--ouro-escuro);
   margin: 0 0 1em;
 }
