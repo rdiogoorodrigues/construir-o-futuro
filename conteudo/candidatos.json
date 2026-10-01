@@ -1,5 +1,5 @@
 {
-  "_instrucoes": "Cada pessoa tem: id (usado nos nomes das fotografias: fotos/ID-atual.jpg e fotos/ID-crianca.jpg), nome (o que aparece no site), nomeCompleto (referência interna, não aparece) e cargo. As pessoas aparecem pela ordem desta lista, dentro de cada órgão e grupo. Um grupo com nome vazio (\"\") aparece sem rótulo.",
+  "_instrucoes": "Cada pessoa tem: id (usado nos nomes das fotografias: fotos/ID-atual.jpg e fotos/ID-crianca.jpg), nome (o que aparece no site), nomeCompleto (referência interna, não aparece) e cargo. As pessoas aparecem pela ordem desta lista, dentro de cada órgão e grupo. Opcional: zoomAtual / zoomCrianca aproximam a fotografia (ex.: 1.8) à volta do ponto em centroZoomAtual / centroZoomCrianca (ex.: \"50% 35%\"); focoAtual / focoCrianca ajustam o enquadramento (ex.: \"center 10%\" = mais para cima; \"20% center\" = mais para a esquerda). Um grupo com nome vazio (\"\") aparece sem rótulo.",
   "orgaos": [
     {
       "orgao": "Direção",
@@ -10,12 +10,12 @@
             { "id": "antonio-luz-pereira", "nome": "António Luz Pereira", "nomeCompleto": "António Da Luz Pereira", "cargo": "Presidente" },
             { "id": "nina-monteiro", "nome": "Nina Monteiro", "nomeCompleto": "Nina Monteiro Silva Ferreira Francisco", "cargo": "Vice-presidente" },
             { "id": "gil-correia", "nome": "Gil Correia", "nomeCompleto": "Gil Roberto Correia Lopes", "cargo": "Vice-presidente" },
-            { "id": "mario-santos", "nome": "Mário Santos", "nomeCompleto": "Mário Alexandre Pinto Pereira Santos", "cargo": "Vice-presidente" },
+            { "id": "mario-santos", "nome": "Mário Santos", "nomeCompleto": "Mário Alexandre Pinto Pereira Santos", "cargo": "Vice-presidente", "zoomAtual": 1.8, "centroZoomAtual": "49% 28%", "focoCrianca": "center 10%" },
             { "id": "madalena-leite-rio", "nome": "Madalena Leite Rio", "nomeCompleto": "Maria Madalena Ponte P Leite Rio", "cargo": "Secretário" },
             { "id": "ines-teles", "nome": "Inês Teles", "nomeCompleto": "Inês Seabra Teles", "cargo": "Tesoureiro" },
             { "id": "andre-reis", "nome": "André Reis", "nomeCompleto": "André Filipe Santos Reis", "cargo": "Vogal" },
             { "id": "carlos-mestre", "nome": "Carlos Mestre", "nomeCompleto": "Carlos Manuel Caeiro Mestre", "cargo": "Vogal" },
-            { "id": "luis-monteiro", "nome": "Luís Monteiro", "nomeCompleto": "Luís Miguel André Monteiro", "cargo": "Vogal" }
+            { "id": "luis-monteiro", "nome": "Luís Monteiro", "nomeCompleto": "Luís Miguel André Monteiro", "cargo": "Vogal", "zoomAtual": 2, "centroZoomAtual": "50% 40%", "focoCrianca": "5% center", "zoomCrianca": 1.7, "centroZoomCrianca": "45% 18%" }
           ]
         },
         {

@@ -231,6 +231,13 @@
       '<p class="cartao-nome">' + esc(p.nome) + '</p>' +
       '<p class="cartao-cargo">' + esc(p.cargo) + '</p>';
     var atual = li.querySelector('.atual'), crianca = li.querySelector('.crianca');
+    // Ponto de foco opcional (ex.: "center 10%"), sem alterar o ficheiro da fotografia.
+    // Aproximação opcional (ex.: 1.8), centrada no ponto indicado em "centroZoom…" (ex.: "50% 35%").
+    [[atual, p.focoAtual, p.zoomAtual, p.centroZoomAtual], [crianca, p.focoCrianca, p.zoomCrianca, p.centroZoomCrianca]]
+      .forEach(function (c) {
+        if (c[1]) c[0].style.objectPosition = c[1];
+        if (c[2]) { c[0].style.transform = 'scale(' + c[2] + ')'; c[0].style.transformOrigin = c[3] || '50% 35%'; }
+      });
     carregaFoto(atual, 'fotos/' + p.id + '-atual', function () {
       li.classList.add('tem-foto');
       carregaFoto(crianca, 'fotos/' + p.id + '-crianca', function () { ativaCrianca(li); });

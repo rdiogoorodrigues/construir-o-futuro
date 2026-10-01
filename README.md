@@ -60,6 +60,8 @@ Para **trocar** uma fotografia, faça o mesmo com um ficheiro com o mesmo nome: 
 **Notas:**
 
 - A fotografia pode ter qualquer formato ou proporção: o site recorta-a automaticamente ao centro, em formato 4:5 (retrato).
+- Se o recorte automático cortar a cabeça ou deixar a pessoa fora do centro, acrescente à linha da pessoa em `candidatos.json` o campo `"focoAtual"` ou `"focoCrianca"`, com dois valores: horizontal e vertical. Exemplos: `"focoCrianca": "center 10%"` sobe o enquadramento; `"focoCrianca": "20% center"` desloca-o para a esquerda. O ficheiro da fotografia não é alterado.
+- Se o rosto ficar muito pequeno, use `"zoomAtual": 1.8` (ou `"zoomCrianca"`) para aproximar, e `"centroZoomAtual": "50% 35%"` para indicar onde está o rosto: percentagem da largura e da altura do cartão. Também aqui o ficheiro não é alterado.
 - Tamanho recomendado: cerca de **600 × 750 píxeis**, até 200 KB. Fotografias de telemóvel com vários MB tornam o site lento; reduza-as primeiro (por exemplo em [squoosh.app](https://squoosh.app)).
 - Sem fotografia, aparece um quadrado com as iniciais. Sem fotografia de infância, o cartão mostra só a atual, sem erro.
 - A foto de infância aparece ao passar o rato (computador), ao tocar, ou quando o cartão passa pelo centro do ecrã (telemóvel).
